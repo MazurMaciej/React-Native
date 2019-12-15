@@ -20,7 +20,7 @@ export default function App() {
   const removeChoseGoal = goalId => {
     setCourseGoals(currentGoals => {
       return currentGoals.filter(goal => goal.id !== goalId)
-    })
+    });
   }
 
   return (
